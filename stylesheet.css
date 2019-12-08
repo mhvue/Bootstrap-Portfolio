@@ -1,0 +1,37 @@
+
+
+h1 {
+    background-color: teal;
+    color:white;
+    width: 300px;
+}
+
+img {
+    padding: 10px;
+}
+
+.navbar {
+    text-align: right;
+}
+
+
+h1 {
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
+
+.col-md-4 {
+    position: relative;
+    left: 150px;
+}
+
+.col-md-8{
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+.col-md-1 {
+    border: 8px solid;
+}
