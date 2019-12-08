@@ -1,9 +1,13 @@
-
+body {
+    background-image: url('../basic-portfolio/assets/images/gravel/gravel.png');
+ }
 
 h1 {
     background-color: teal;
     color:white;
     width: 300px;
+    position: relative;
+    bottom: 50px;
 }
 
 img {
@@ -15,10 +19,11 @@ img {
 }
 
 
-h1 {
+h2 {
     position: relative;
-    top: -50px;
-    left: 50px;
+    top: 5px;
+    left: 40px;
+    color:teal;
 }
 
 .col-md-4 {
@@ -32,6 +37,12 @@ h1 {
     top: 20px;
 }
 
-.col-md-1 {
-    border: 8px solid;
+footer {
+    background-color: gray;
+    padding: 20px;
+    border-top: 8px solid #4aaaa5;
+    text-align: center;
+    position: relative;
+    
 }
+
