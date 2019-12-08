@@ -14,7 +14,6 @@
 
 <body>
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <!--<a class="navbar-brand" href="#">NAVBAR</a>-->
      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
      <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,11 +31,48 @@
       </ul>
     </div>
     </nav> 
-              <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <h1>Mai Houa Vue</h1>
-                    </div>
-              </div>
+              
+    <div class="container">
+      <div class="row">
+       <div class="col-md-12">
+       <h1>Mai Houa Vue</h1>
+       </div>
+    </div>
+
+
+    <div class="container bg-white text-dark border border-dark m-10 p-5">
+        <div class="row">
+          <div class="col-md-12">
+            <h2>Contact</h2>
+            <hr>
+          </div>
+        </div>
+
+        <form>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" class="form-control" id="name"> <!---aria-describedby="emailHelp"--> 
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea class="form-control" id="message" rows="5"></textarea>
+                  </div>
+            <button type="submit" class="btn">Submit</button>
+          </form>
+        </div>
+      </div> <!--close div tag for container-->
+<br>
+      <div class="container-collapse">
+          <div class="row">
+            <div class="col-md-12"> 
+              <footer>Copyright &copy;</footer>
+            </div>
+          </div>
+      </div>
+
 </body>
 </html>
