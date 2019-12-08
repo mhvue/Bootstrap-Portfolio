@@ -37,12 +37,12 @@ h2 {
     top: 20px;
 }
 
-footer {
+.container-collapse {
     background-color: gray;
     padding: 20px;
     border-top: 8px solid #4aaaa5;
     text-align: center;
-    position: relative;
+    bottom:0%;
     
 }
 
