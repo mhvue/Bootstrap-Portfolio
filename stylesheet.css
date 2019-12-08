@@ -24,18 +24,9 @@ h2 {
     top: 5px;
     left: 40px;
     color:teal;
+
 }
 
-.col-md-4 {
-    position: relative;
-    left: 150px;
-}
-
-.col-md-8{
-    position: relative;
-    right: 20px;
-    top: 20px;
-}
 
 .container-collapse {
     background-color: gray;
@@ -44,5 +35,18 @@ h2 {
     text-align: center;
     bottom:0%;
     
+}
+
+/*Portfolio*/
+
+h3 {
+    background-color: teal;
+    position: absolute;
+    top: 160px;
+    left: px;
+    color:white;
+    padding: 10px;
+    width: 280px;
+    text-align: center;
 }
 
