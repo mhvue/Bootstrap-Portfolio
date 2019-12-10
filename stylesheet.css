@@ -3,11 +3,12 @@ body {
  }
 
 h1 {
-    background-color: teal;
+    background-color:#4aaaa5;
     color:white;
     width: 300px;
     position: relative;
     bottom: 50px;
+    left: 30px;
 }
 
 img {
@@ -23,7 +24,7 @@ h2 {
     position: relative;
     top: 5px;
     left: 40px;
-    color:teal;
+    color:#4aaaa5;
 
 }
 
