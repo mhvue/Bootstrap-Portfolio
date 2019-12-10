@@ -40,10 +40,9 @@ h2 {
 /*Portfolio*/
 
 h3 {
-    background-color: teal;
+    background-color:#4aaaa5;
     position: absolute;
     top: 160px;
-    left: px;
     color:white;
     padding: 10px;
     width: 280px;
@@ -53,7 +52,7 @@ h3 {
 /*Contact*/
 
 .btn {
-    background-color: teal;
+    background-color:#4aaaa5;
     color: white;
 }
 
