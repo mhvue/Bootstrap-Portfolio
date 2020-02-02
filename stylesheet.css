@@ -17,6 +17,10 @@ img {
     padding: 10px;
 }
 
+#profilePic {
+    transform: rotate(90deg);
+    width: 250px;
+}
 .navbar {
     text-align: right;
 }
@@ -54,6 +58,14 @@ h3 {
     text-align: center;
 }
 
+.img-fluid {
+    margin: 20px auto;
+    width: 300px;
+}
+
+/* fix headers of h3 as they are static and add media queries to make it look nice */ 
+
+
 /*Contact*/
 
 .btn {
@@ -62,3 +74,27 @@ h3 {
 }
 
 
+/* media queries  */
+@media screen and (max-width: 980px) {
+.img-fluid {
+    width: 100%;
+}
+
+h3 {
+width: 200px;
+font-size: 25px;
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+.img-fluid {
+    width: 80%;
+}
+
+h3 {
+    width: 250px;
+    font-size: 30px;
+    }
+}
